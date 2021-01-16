@@ -6,4 +6,4 @@ Je suis parti de ce tuto que j'ai amélioré et réadapté: https://lobstr.io/in
 
 # Lancement
 Pour lancer il suffit de se mettre dans une console et de faire: ```python .\scrapperPajesJaunes.py "poids lourds" /Projets  ```
-Le premier paramètre correspond au mot clé recherché.
+Le premier paramètre correspond au mot clé recherché et le deuxième au chemin ou le csv sera enregistré.

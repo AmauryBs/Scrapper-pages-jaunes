@@ -15,12 +15,12 @@ Exemple de sortie après avoir ouvert le csv avec excel
 ![sortie](Out.png)
 
 ## Ajout de département
-il suffit de rajouter des départements en gardant la même syntaxe que ci-dessous dans le fichier scrapperPajesJaunes.py  
+Il suffit de rajouter des départements en gardant la même syntaxe que ci-dessous dans le fichier scrapperPagesJaunes.py  
     ```python
         liste_departement =[{'dep':'ain-01','nb_dep':'1'},{'dep':'aisne-02','nb_dep':'2'}]
     ```
 ### Exemple 
-Imaginons que vous souhaiter ajouter le département alpes de haute provence dans la liste de départements, pour l'instant la liste ressemble à ça :
+Imaginons que vous souhaitiez ajouter le département alpes de haute provence dans la liste de départements, pour l'instant la liste ressemble à ça :
     ```python
         liste_departement =[{'dep':'ain-01','nb_dep':'1'},{'dep':'aisne-02','nb_dep':'2'}]
     ```
@@ -30,4 +30,4 @@ Ensuite nous allons copier le nom de département qui est affiché dans l'url et
 
 Pour finir on copie tout ça dans notre fichier scrapperPajesJaunes.py  
     ![liste_departement](liste_departement.png)  
-Et Voilà! Sauvegarder votre fichier et c'est bon 
+Et Voilà! Sauvegardez votre fichier et c'est bon 

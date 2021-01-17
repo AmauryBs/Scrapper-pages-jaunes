@@ -30,4 +30,4 @@ Ensuite nous allons copier le nom de département qui est affiché dans l'url et
 
 Pour finir on copie tout ça dans notre fichier scrapperPajesJaunes.py  
     ![liste_departement](liste_departement.png)  
-Et Voilà! Sauvegardé votre fichier et c'est bon 
+Et Voilà! Sauvegarder votre fichier et c'est bon 

@@ -9,8 +9,15 @@ Pour lancer il suffit de se mettre dans une console et de faire:
 ```python .\scrapperPajesJaunes.py "poids lourds" ./ ```  
 Le premier paramètre correspond au mot clé recherché et le deuxième au chemin ou le csv sera enregistré.
 
+
+# Sortie
+Exemple de sortie après avoir ouvert le csv avec excel
+![sortie](Out.png)
+
 # Changement de département
 il suffit de rajouter des département en gardant la même syntaxe que ci-dessous dans le fichier scrapperPajesJaunes.py  
     ```python
         liste_departement =[{'dep':'ain-01','nb_dep':'1'},{'dep':'aisne-02','nb_dep':'2'}]
     ```
+# Exemple de chargement 
+![sortie](exemple.png)

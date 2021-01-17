@@ -6,7 +6,7 @@ Je suis parti de ce tuto que j'ai amélioré et réadapté: https://lobstr.io/in
 
 ## Lancement
 Pour lancer il suffit de se mettre dans une console et de faire:  
-```python .\scrapperPajesJaunes.py "poids lourds" ./ ```  
+```python .\scrapperPagesJaunes.py "poids lourds" ./ ```  
 Le premier paramètre correspond au mot-clé recherché et le deuxième au chemin ou le csv sera enregistré.
 
 
@@ -26,7 +26,7 @@ Imaginons que vous souhaiter ajouter le département alpes de haute provence dan
     ```
 Maintenant allons sur le site de pages jaunes et faisont une recherche avec le département alpes de haute provence, ce qui correspond au numéro de département 4,  
 ![exemple](exemple.png)  
-Ensuite nous allons copier le nom de département qui est affiché dans l'url et vérifié le numéro de département (cette partie n'est pas vraiment nécessaire, sans surprise le numéro de département de l'url est bien le 4)
+Ensuite nous allons copier le nom de département qui est affiché dans l'url et vérifier le numéro de département (cette partie n'est pas vraiment nécessaire, sans surprise le numéro de département de l'url est bien le 4)
 
 Pour finir on copie tout ça dans notre fichier scrapperPajesJaunes.py  
     ![liste_departement](liste_departement.png)  

@@ -103,7 +103,9 @@ def extract(mots_cles, path):
             articles = ["begin"]
             page=1
             url = url_departement
-        
+            print('-- DEPARTEMENT --')
+            print(departement['dep'])
+    
         # recherche sur toutes les pages du département 
             while articles!=[]:
                 time.sleep(0.5)

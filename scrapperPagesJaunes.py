@@ -88,7 +88,7 @@ def extract(mots_cles, path):
     endUrl = "&univers=pagesjaunes&idOu="
     
     # Liste des départements où effectuer la recherche
-    liste_departement =[{'dep':'ain-01','nb_dep':'1'},{'dep':'aisne-02','nb_dep':'2'}] 
+    liste_departement =[{'dep':'ain-01','nb_dep':'1'},{'dep':'aisne-02','nb_dep':'2'},{'dep':'allier-03','nb_dep':'3'}] 
 
     # CREATION DU CSV
     with open(path + '/extract.csv', "w",newline='') as f:

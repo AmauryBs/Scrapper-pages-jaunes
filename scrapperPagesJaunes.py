@@ -106,7 +106,7 @@ def extract(mots_cles, path):
         
         # recherche sur toutes les pages du département 
             while articles!=[]:
-                #time.sleep(0.5)
+                time.sleep(0.5)
                 response = r.post(url=url)
                 print('-- URL --')
                 print(url)
